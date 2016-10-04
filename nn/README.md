@@ -11,6 +11,9 @@ This is an implementation of the co-reference resultion task using Multi Layer P
 	* Average of all word vectors to the left and right of the mention in a window of size 5.
 3. Mention pair Features
 	* Distances between the two mentions in terms of the no of sentences and the no of mentions occuring between them.
+	* String matching features indicating if the mentions have matching head words,match partially, or match exactly.
+	* String matching features indicating if the mentions words,match partially, or match exactly.
+
 
 ### Tools
 * For word vectors, we have used a pretrained word2vec model on the Google News corpus.
