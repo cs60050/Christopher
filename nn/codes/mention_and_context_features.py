@@ -8,7 +8,7 @@ def generateFeatures(fname):
 	avgFile = pkl.load(open("../data/features/avg_word_vectors/" + fname + ".p",'r'))
 	fhlFile = pkl.load(open("../data/features/fhl_word_vectors/" + fname + ".p",'r'))
 	contextFile = pkl.load(open("../data/features/context_word_vectors/" + fname + ".p",'r'))
-	depFile = pkl.load(open("../data/features/head_dep/" + fname + ".p",'r'))
+	depFile = pkl.load(open("../data/features/head_dep/number/" + fname + ".p",'r'))
 
 	def avgWordVector(mId):
 		return avgFile[mId].tolist()

@@ -10,19 +10,21 @@ This is an implementation of the co-reference resultion task using Multi Layer P
 2. Context Features
 	* Average of all word vectors to the left and right of the mention in a window of size 5.
 3. Mention pair Features
-	* Distances between the two mentions in terms of the no of sentences and the no of mentions occuring between them.
-	* String matching features indicating if the mentions have matching head words,match partially, or match exactly.
-	* String matching features indicating if the mentions words,match partially, or match exactly.
+	* Distances between the two mentions in terms of the number of sentences and the number of mentions occuring between them.
+	* String matching feature indicating if the head words of the mention match partially or exactly.
+	* String matching feature indicating if the mentions word match partially or exactly.
 
+### Intermediate Data files
+Precomputed data files required during the feature extarction process can be found [here](https://drive.google.com/drive/folders/0BwwGVSvxwm9QYnJEbTRpTXN0SFk?usp=sharing).
 
 ### Tools
-* For word vectors, we have used a pretrained word2vec model on the Google News corpus.
+* For word vectors, we have used a pretrained word2vec model on the Google News corpus. Each word vector has a dimension of 300.
 * For dependency parsing, we have used the Stanford Core NLP module.
 
 ### Network architecture
 To be added
 
-### Datasets
+### Train and Test Datasets
 To be added
 
 ### Accuracy
