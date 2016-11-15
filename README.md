@@ -5,7 +5,7 @@ Coreference resolution is the process of determining whether two expressions in 
 
 1. Hobb’s Algorithm
 2. Decision Trees
-3. Multilayer Perceptron
+3. Multilayer Perceptron [(view more)](https://github.com/cs60050/Christopher/tree/master/MLP)
 4. Skip-thought Vectors
 5. Long Short Term Memory
 
